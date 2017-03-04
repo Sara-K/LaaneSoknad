@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaneSoknad.API", "LaneSoknad\LaneSoknad.API.csproj", "{720D6458-EE58-48E3-90D7-1DE0F18B456C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaneSoknad.WEB", "LaneSoknad.WEB\LaneSoknad.WEB.csproj", "{AB9CB029-E954-4D84-83C8-5980E1305FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{720D6458-EE58-48E3-90D7-1DE0F18B456C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720D6458-EE58-48E3-90D7-1DE0F18B456C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720D6458-EE58-48E3-90D7-1DE0F18B456C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720D6458-EE58-48E3-90D7-1DE0F18B456C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9CB029-E954-4D84-83C8-5980E1305FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9CB029-E954-4D84-83C8-5980E1305FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9CB029-E954-4D84-83C8-5980E1305FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9CB029-E954-4D84-83C8-5980E1305FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

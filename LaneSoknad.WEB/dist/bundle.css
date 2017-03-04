@@ -1,0 +1,113 @@
+.navbar-default {
+  background-color: #f5f5f5; }
+  .navbar-default .navbar-nav li a {
+    color: #263238;
+    font-size: 1.2em; }
+  .navbar-default .navbar-nav li a:hover {
+    color: #5e5e5e;
+    font-size: 1.2em; }
+
+#kalkulatorInnhold {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 500px; }
+  #kalkulatorInnhold #container {
+    width: 100%;
+    max-width: 800px; }
+    #kalkulatorInnhold #container .panel {
+      width: 100%;
+      border-radius: 0; }
+      #kalkulatorInnhold #container .panel .panel-heading {
+        border-radius: 0;
+        background-color: #263238; }
+        #kalkulatorInnhold #container .panel .panel-heading .panel-title {
+          color: white;
+          font-size: 2em; }
+      #kalkulatorInnhold #container .panel .panel-body .input-group {
+        margin: 10px;
+        width: 100%; }
+      #kalkulatorInnhold #container .panel .panel-body button {
+        border-radius: 0;
+        margin-top: 35px; }
+      #kalkulatorInnhold #container .panel .panel-footer .row {
+        width: 100%;
+        margin: 10px; }
+        #kalkulatorInnhold #container .panel .panel-footer .row button {
+          border-radius: 0; }
+          #kalkulatorInnhold #container .panel .panel-footer .row button span {
+            margin-left: 15px; }
+
+#soknadInnhold {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 500px; }
+  #soknadInnhold #container {
+    width: 100%;
+    max-width: 800px; }
+    #soknadInnhold #container .panel {
+      width: 100%;
+      border-radius: 0; }
+      #soknadInnhold #container .panel .panel-heading {
+        border-radius: 0;
+        background-color: #263238; }
+        #soknadInnhold #container .panel .panel-heading .panel-title {
+          color: white;
+          font-size: 2em; }
+      #soknadInnhold #container .panel .panel-body label {
+        font-size: 15px; }
+      #soknadInnhold #container .panel .panel-body .input-group {
+        margin-top: 20px;
+        width: 100%; }
+      #soknadInnhold #container .panel .panel-footer button {
+        border-radius: 0;
+        margin-top: 10px; }
+
+#soknaderListeInnhold {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%; }
+  #soknaderListeInnhold #container {
+    width: 100%;
+    margin: 50px; }
+    #soknaderListeInnhold #container .panel {
+      border-radius: 0; }
+      #soknaderListeInnhold #container .panel .panel-heading {
+        background-color: #263238; }
+        #soknaderListeInnhold #container .panel .panel-heading h1 {
+          margin-top: 25px;
+          padding: 10px;
+          border-radius: 0;
+          color: white; }
+        #soknaderListeInnhold #container .panel .panel-heading #sokFelt {
+          padding: 10px;
+          max-width: 40%; }
+          #soknaderListeInnhold #container .panel .panel-heading #sokFelt #sokInput {
+            margin-right: 10px;
+            margin-bottom: 15px;
+            padding-left: 5px; }
+          #soknaderListeInnhold #container .panel .panel-heading #sokFelt #sokeKnapp {
+            border-radius: 0;
+            margin-right: 10px;
+            max-height: 25px;
+            padding-top: 3px;
+            margin-bottom: 10px;
+            padding-left: 5px; }
+      #soknaderListeInnhold #container .panel .table {
+        border-radius: 0; }
+        #soknaderListeInnhold #container .panel .table thead tr th {
+          padding: 20px;
+          font-size: 16px; }
+        #soknaderListeInnhold #container .panel .table tbody tr td {
+          padding: 20px; }
+
+/*# sourceMappingURL=bundle.css.map*/
